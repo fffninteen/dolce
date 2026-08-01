@@ -378,6 +378,7 @@ border:1.2px solid rgba(247,241,227,.22);
 border-radius:calc(var(--plate) * .62);
 }
 .nav a::after{display:none}
+.nav a:last-child{grid-column:1/-1}
 .nav.is-open{transform:none}
 .burger{display:grid}
 .head .btn{margin-inline-start:auto}
